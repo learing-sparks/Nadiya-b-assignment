@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.calculator {
+    max-width: 300px;
+    margin: auto;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: right;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.history {
+    margin-top: 20px;
+}
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+.history li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
